@@ -1,4 +1,4 @@
-01-README.md:
+
 <div align="center">
 <img src="assets/images/readme/logo-upc.png" alt="Logo UPC" style="width: 150px; height: auto;" />
 
@@ -127,7 +127,7 @@ Link Github: https://github.com/RPG2-0-OpenSource-1ASI0729-2520-7327
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
-- [Student Outcome 3](#student-outcome-3)
+- [**Student Outcome 3**](#student-outcome-3)
 - [**Capítulo I: Introducción**](#capítulo-i-introducción)
     - [1.1. Perfil de la Startup](#11-perfil-de-la-startup)
         - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -234,9 +234,10 @@ Link Github: https://github.com/RPG2-0-OpenSource-1ASI0729-2520-7327
         - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
         - [5.3.3. Evaluación según heurísticas.](#533-evaluación-según-heurísticas)
     - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+- [**Conclusiones**](#conclusiones)
+- [**Bibliografía**](#bibliografía)
+- [**Anexos**](#anexos)
+
 ---
 
 <div style="page-break-after: always;"></div>
@@ -257,7 +258,7 @@ En el siguiente cuadro se describen las acciones realizadas  y enunciados de con
 | **Comunica por escrito <br />con efectividad a <br />diferentes rangos <br />de audiencia.** | **Howard Robles, Guillermo Arturo** <br />TB1: Lideró la redacción de escenarios de usuario y tareas funcionales; documentó el desarrollo inicial del flujo base. <br />**TP:** Redactó las conclusiones del equipo y afinó la coherencia de los supuestos. <br />**TB2:** Redactó y corrigió entregables relacionados a clases del backend. <br /> **TF1:** Redactó y corrigió estructura y malas prácticas presentadas en el report. <br /><br />**David Ignacio, Vivar Cesar**<br /> TB1: Lideró la elaboración escrita del Lean UX Canvas y síntesis de hallazgos. <br />**TP:** Redactó reflexiones del equipo sobre colaboración durante el Sprint. <br />**TB2:** Redactó el Sprint Backlog 3 y contribuyó con las evidencias de desarrollo. <br /> **TF1:** Redactó y corrigió el backend . <br /><br />**Mike Dylan Guillen Giraldo**<br /> TB1: Lideró la documentación del proceso de entrevistas y validación de usuarios. <br />**TP:** Documentó las evidencias del despliegue de software para revisión técnica. <br />**TB2:** Redactó y corrigió entregables relacionados a heurísticas del sistema. <br /> **TF1:** Redactó los componentes faltantes en el frontend. <br /><br />**Cespedes Pillco Jarod Jack** <br /> TB2: Documentó evidencias de desarrollo del backend. <br /> **TF1:** Documentó evidencias de desarrollo del frontend .                                                  | **TB1:** Cada integrante tomó liderazgo en la elaboración de entregables escritos clave, garantizando una comunicación clara, precisa y estructurada. Esto permitió representar con fidelidad el trabajo realizado, desde documentos metodológicos como el Lean UX Canvas, hasta descripciones funcionales, user personas y análisis técnicos. <br /><br />**TP:**<br /> El equipo fortaleció su redacción técnica corrigiendo y mejorando entregas anteriores, lo cual se refleja en la calidad y claridad de los nuevos documentos. Cada evidencia escrita permitió comunicar adecuadamente tanto los avances del producto como el proceso seguido por el equipo. <br /><br />**TB2:**<br /> Se evidenció un avance en la precisión de los documentos técnicos y colaborativos. Las evidencias de desarrollo, actualizaciones del informe y análisis de módulos muestra la capacidad del equipo de comunicar información compleja a diferentes audiencias a través de medios escritos. <br /><br />**TF:** <br /> En la fase final, el equipo consolidó su capacidad de comunicación oral mediante exposiciones integrales que abarcaron la explicación técnica del sistema, las decisiones de diseño, el proceso de desarrollo y los resultados finales obtenidos..                                                               |
 
 ---
-02-cap1-introduction.md:
+
 <div style="page-break-after: always;"></div>
 
 # **Capítulo I: Introducción**
@@ -293,7 +294,7 @@ Con GlassGo, buscamos reducir las pérdidas económicas por roturas, optimizar l
 ### 1.2.1. Antecedentes y Problematicas
 
 **¿Who (Quiénes son los afectados?)**  
- Los principales afectados son:
+Los principales afectados son:
 
 * Empresas de transporte de carga pesada en Perú, enfrentando altos costos operativos debido a rutas ineficientes, desgaste de vehículos y accidentes.
 
@@ -302,7 +303,7 @@ Con GlassGo, buscamos reducir las pérdidas económicas por roturas, optimizar l
 * Dueños de bares, licorerías y restaurantes, que reciben pedidos incompletos o tardíos, afectando la planificación de inventarios, promociones y ventas.
 
 **What (Qué sucede?)**  
- La cadena logística para el transporte de licores en Perú presenta problemas estructurales:
+La cadena logística para el transporte de licores en Perú presenta problemas estructurales:
 
 * Flotas de camiones con una antigüedad promedio de 17 años (MTC, 2023), aumentando el riesgo de fallas y daños a la mercancía.
 
@@ -319,7 +320,7 @@ El problema ocurre en el mercado peruano de transporte y distribución de bebida
 Este problema es persistente y estructural. Aunque los avances tecnológicos han mejorado la eficiencia en otros sectores, la digitalización en la logística de bebidas en Perú es lenta. El problema ocurre diariamente con cada entrega de productos y se intensifica durante temporadas de alta demanda (festividades nacionales, fin de año, campañas regionales).
 
 **¿Why (Por qué es un problema?)**  
- La falta de digitalización y control logístico genera graves consecuencias:
+La falta de digitalización y control logístico genera graves consecuencias:
 
 * **Económicas**: pérdidas por rotura, reemplazos, robos y retrasos.
 
@@ -393,10 +394,10 @@ El desafío, por lo tanto, no es crear una herramienta predefinida, sino propone
 #### B. User Assumptions
 
 * ¿Quién es el usuario?  
-   Conductores de camiones, distribuidores de licores y dueños de bares/licorerías.
+  Conductores de camiones, distribuidores de licores y dueños de bares/licorerías.
 
 * ¿Dónde encaja el producto?  
-   En las operaciones diarias de transporte y recepción de pedidos, a través de una aplicación móvil y un panel web.
+  En las operaciones diarias de transporte y recepción de pedidos, a través de una aplicación móvil y un panel web.
 
 * Problema a resolver: pérdidas por rotura (3% de la carga), retrasos en las entregas, falta de visibilidad de la carga.
 
@@ -482,15 +483,15 @@ Sabremos que tenemos éxito cuando veamos el siguiente feedback del mercado: los
 
 ## 1.3. Segmentos Objetivo
 
-* **Segmento 1: Empresas de Transporte de Camiones**  
-  * Buscan optimizar rutas y reducir pérdidas. Necesitan herramientas que proporcionen trazabilidad en tiempo real y menos desgaste en la logística.  
-      
-* **Segmento 2: Distribuidores de Licores**  
-  * Su principal necesidad es que la mercancía llegue sin pérdidas y a tiempo. Incurren en costos adicionales al reemplazar productos dañados.  
-      
-* **Segmento 3: Dueños de Negocios (Bares, Licorerías, Restaurantes)**  
-  * Requieren pedidos completos y puntuales. La transparencia en la trazabilidad les permite planificar inventarios, promociones y ventas sin depender de procesos poco confiables.
-03-cap2-requirements-elicitation-and-analysis.md:
+* **Segmento 1: Empresas de Transporte de Camiones**
+    * Buscan optimizar rutas y reducir pérdidas. Necesitan herramientas que proporcionen trazabilidad en tiempo real y menos desgaste en la logística.
+
+* **Segmento 2: Distribuidores de Licores**
+    * Su principal necesidad es que la mercancía llegue sin pérdidas y a tiempo. Incurren en costos adicionales al reemplazar productos dañados.
+
+* **Segmento 3: Dueños de Negocios (Bares, Licorerías, Restaurantes)**
+    * Requieren pedidos completos y puntuales. La transparencia en la trazabilidad les permite planificar inventarios, promociones y ventas sin depender de procesos poco confiables.
+
 <div style="page-break-after: always;"></div>
 
 # **Capítulo II: Requirements Elicitation & Analysis**
@@ -668,7 +669,7 @@ GlassGo se posiciona como la solución integral para el transporte de licores en
 
     * **Timing: 40:19 \- 46:25**
     * **Resumen:**
-  
+
       Percy Adrián Rojas León, de 37 años, es el director de una empresa de transporte de carga con varios años de experiencia en el rubro. Su personalidad refleja organización, responsabilidad y orientación a resultados, especialmente en el cumplimiento de tiempos de entrega y el cuidado de la mercancía transportada. Dirige una flota mediana de camiones, dedicada principalmente al transporte y distribución de productos de consumo y bebidas hacía bares, licorerías y supermercados, lo que evidencia su inserción en un segmento comercial con alta demanda de puntualidad y conservación del producto.
 
       El equipo de trabajo que lidera es reducido pero eficiente, con una estructura enfocada en la coordinación logística y la integridad de las entregas. En cuanto al uso de la tecnología, la herramienta principal es el smartphone, empleado tanto por los conductores como por el personal de logística para la comunicación y coordinación diaria. También utilizan computadoras para la gestión general y hojas de cálculo en la planificación semi-manual de rutas, combinando procedimientos tradicionales con recursos digitales básicos.
@@ -676,8 +677,8 @@ GlassGo se posiciona como la solución integral para el transporte de licores en
       El usuario emplea sistemas GPS estándar, los cuales permiten el rastreo de ubicación y monitoreo del avance de las entregas. No obstante, reconoce limitaciones en la automatización y precisión de los datos obtenidos. Identifica como información valiosa la posibilidad de acceder a alertas en tiempo real sobre ubicación, temperatura de la carga, impactos o movimientos bruscos, lo que revela un interés por mejorar la trazabilidad y control de las condiciones del transporte, especialmente en el manejo de botellas y líquidos frágiles. Dichas carencias pueden representar costos adicionales
 
       Finalmente, el usuario expresa que una solución ideal para su empresa debería caracterizarse por su facilidad de uso, especialmente desde aplicaciones móviles, de modo que tanto él como su equipo puedan integrarse sin necesidad de conocimientos técnicos complejos. Esto refleja una preferencia por tecnologías intuitivas, accesibles y compatibles con dispositivos móviles, consolidando un perfil de usuario pragmático y funcional, que busca eficiencia logística sin sacrificar simplicidad operativa.
-  
-    
+
+
 * **Segmento 2: Proveedores de licores**
     * **Entrevista 1:**
         * **Nombre:** Omar
@@ -691,12 +692,12 @@ GlassGo se posiciona como la solución integral para el transporte de licores en
 
         * **Timing:** 57:30 \- 01:04:35
         * **Resumen:**
-      
+
           Omar, gerente general de una distribuidora de licores ubicada en la ciudad de Arequipa, cuenta con 18 años de experiencia en el rubro y actualmente lidera un equipo de 35 personas junto a una flota de 12 camiones que atienden principalmente a hoteles, cadenas de restaurantes, licorerías de mediana y gran escala, además de supermercados. A sus 48 años, proyecta una personalidad organizada, con visión estratégica y capacidad de negociación, participando directamente en acuerdos con proveedores e inversiones mientras delega la coordinación logística a un supervisor.   Las mayores demandas de su negocio se concentran en las campañas de julio por fiestas patrias, diciembre por navidad y año nuevo, así como en ferias gastronómicas y eventos corporativos, donde llegan a realizar alrededor de 600 entregas mensuales, lo que representa un 40% de su volumen total en picos de temporada. La empresa opera con computadoras y laptops para tareas administrativas, mientras que los conductores utilizan celulares Android con GPS para reportes y coordinación, apoyándose además en WhatsApp y hojas de cálculo como herramientas complementarias para el control de inventarios y facturación.
 
           Sin embargo, el entrevistado reconoce que actualmente dependen de reportes tardíos de choferes o reclamos de clientes para identificar incidencias, lo que impacta negativamente en la satisfacción y confianza de clientes clave, obligando a asumir costos adicionales como reposiciones de producto, horas extras, penalidades y envíos urgentes. Dentro de sus expectativas de mejora, considera prioritario implementar soluciones tecnológicas que ofrezcan seguimiento en tiempo real, reportes automáticos y alertas tempranas que permitan anticipar retrasos y reducir pérdidas, siempre con un claro retorno de inversión que justifique la adopción de nuevas plataformas.
 
-    
+
 * **Entrevista 2:**
     * **Nombres:** Adolfo Palacin
     * **Apellidos:** Palacin Lope
@@ -710,14 +711,14 @@ GlassGo se posiciona como la solución integral para el transporte de licores en
 
     * **Timing: 46:26 \- 57:28**
     * **Resumen:**
-  
-       Lulio Adolfo Palacín López, supervisor de transporte en Distribuidora San Martín, cuenta con más de 10 años de experiencia en la gestión logística dentro del sector de distribución de licores. A sus 46 años, se caracteriza por una personalidad organizada y resolutiva, enfocada en la programación de viajes, la coordinación con conductores y la supervisión del correcto traslado de la mercadería hacia clientes como bares, licorerías, restaurantes, pequeños supermercados y minimarkets en Lima.
 
-       La empresa, ubicada en Ate, dispone de una flota de 5 camiones medianos y concentra su mayor volumen de operaciones durante los meses de julio, diciembre y en fechas festivas o fines de semana, alcanzando en promedio 150–160 entregas mensuales. El control logístico se realiza principalmente con herramientas básicas: teléfonos móviles con Android, WhatsApp y Google Maps.
+      Lulio Adolfo Palacín López, supervisor de transporte en Distribuidora San Martín, cuenta con más de 10 años de experiencia en la gestión logística dentro del sector de distribución de licores. A sus 46 años, se caracteriza por una personalidad organizada y resolutiva, enfocada en la programación de viajes, la coordinación con conductores y la supervisión del correcto traslado de la mercadería hacia clientes como bares, licorerías, restaurantes, pequeños supermercados y minimarkets en Lima.
 
-       La comunicación con los conductores es directa y se reportan incidentes mediante fotos o mensajes, aunque en ocasiones con demoras, lo que dificulta la trazabilidad en tiempo real. Las principales preocupaciones identificadas resultan ser la merma de carga, accidentes con su producto y retrasos sobre los tiempos acordados previamente en cada entrega. Estas contingencias impactan en la satisfacción para sus clientes al igual que su credibilidad de su trabajo repercutiendo en cancelaciones o pérdidas de futuras oportunidades.
+      La empresa, ubicada en Ate, dispone de una flota de 5 camiones medianos y concentra su mayor volumen de operaciones durante los meses de julio, diciembre y en fechas festivas o fines de semana, alcanzando en promedio 150–160 entregas mensuales. El control logístico se realiza principalmente con herramientas básicas: teléfonos móviles con Android, WhatsApp y Google Maps.
 
-       Al usar una plataforma digital, considera imprescindible alertas o notificaciones sobre posibles cuellos de botella para evitar demoras. Desea una herramienta económica, sencilla de usar y compatible con dispositivos moviles. Su motivación principal radica en mantener un control más riguroso de las operaciones, reducir pérdidas y asegurar un servicio que refuerce la confianza del cliente.
+      La comunicación con los conductores es directa y se reportan incidentes mediante fotos o mensajes, aunque en ocasiones con demoras, lo que dificulta la trazabilidad en tiempo real. Las principales preocupaciones identificadas resultan ser la merma de carga, accidentes con su producto y retrasos sobre los tiempos acordados previamente en cada entrega. Estas contingencias impactan en la satisfacción para sus clientes al igual que su credibilidad de su trabajo repercutiendo en cancelaciones o pérdidas de futuras oportunidades.
+
+      Al usar una plataforma digital, considera imprescindible alertas o notificaciones sobre posibles cuellos de botella para evitar demoras. Desea una herramienta económica, sencilla de usar y compatible con dispositivos moviles. Su motivación principal radica en mantener un control más riguroso de las operaciones, reducir pérdidas y asegurar un servicio que refuerce la confianza del cliente.
 
 * **Entrevista 3:**
     * **Nombres:** Luis Javier
@@ -758,10 +759,10 @@ GlassGo se posiciona como la solución integral para el transporte de licores en
         * **Resumen:**
 
           Carla Martinez, administradora de un negocio con tres años de operación en el sector de ventas minoristas, refleja una personalidad organizada y enfocada en el control del inventario. A sus 33 años, combina la disciplina en la gestión con un estilo de liderazgo práctico, apoyándose en herramientas digitales básicas para coordinar los procesos de abastecimiento. El negocio utiliza principalmente la computadora de escritorio (PC) para la gestión de pedidos e inventarios, mientras que para la comunicación con los proveedores se emplean canales como llamadas telefónicas, correos electrónicos y WhatsApp, lo que permite un contacto directo y constante.
-        * 
-          Dentro de sus criterios de selección de proveedores, Carla prioriza la confianza, la calidad y la trayectoria de la marca en el mercado, destacando que siempre prefiere realizar pedidos con anticipación para garantizar disponibilidad de productos. Sin embargo, menciona que la coordinación puede ser tanto fácil como complicada, debido al análisis constante de la demanda y el control de los artículos más solicitados. Entre los principales problemas enfrentados por el negocio están los retrasos en las entregas, la falta de ciertos productos y los cambios repentinos en los precios.
+        *
+        Dentro de sus criterios de selección de proveedores, Carla prioriza la confianza, la calidad y la trayectoria de la marca en el mercado, destacando que siempre prefiere realizar pedidos con anticipación para garantizar disponibilidad de productos. Sin embargo, menciona que la coordinación puede ser tanto fácil como complicada, debido al análisis constante de la demanda y el control de los artículos más solicitados. Entre los principales problemas enfrentados por el negocio están los retrasos en las entregas, la falta de ciertos productos y los cambios repentinos en los precios.
 
-          Para ella, resulta fundamental recibir confirmaciones claras de envío y conocer los horarios exactos de llegada de los pedidos. Asimismo, considera que contar con un sistema de seguimiento en tiempo real aumentaría la confianza y transparencia en el proceso. Finalmente, Carla expresa disposición a invertir en un servicio que ofrezca transparencia, confiabilidad y puntualidad, siempre que esté alineado con la misión de brindar un servicio de calidad a la sociedad.
+        Para ella, resulta fundamental recibir confirmaciones claras de envío y conocer los horarios exactos de llegada de los pedidos. Asimismo, considera que contar con un sistema de seguimiento en tiempo real aumentaría la confianza y transparencia en el proceso. Finalmente, Carla expresa disposición a invertir en un servicio que ofrezca transparencia, confiabilidad y puntualidad, siempre que esté alineado con la misión de brindar un servicio de calidad a la sociedad.
 
 * **Entrevista 2:**
     * **Nombre:** Alejandro
@@ -980,7 +981,7 @@ Los segmentos considerados para este análisis son:
 
 ## 2.4. Big Picture Event Storming.
 
-  ![cap2](assets/images/cap2/Event.Storming.png)
+![cap2](assets/images/cap2/Event.Storming.png)
 
 ## 2.5. Ubiquitous Language.
 
@@ -1054,7 +1055,7 @@ revisión
 | Logistics Partner | Socio logístico | Entidad que apoya en la ejecución o entrega de servicios. |
 
 
-04-cap3-requirements-specification.md:
+
 <div style="page-break-after: always;"></div>
 
 # **Capítulo III: Requirements Specification**
@@ -1230,7 +1231,7 @@ The *Product Backlog* is the prioritized list of features, improvements, and tec
 | 58 | US-58 | Mapa de ubicación | Como visitante, deseo ver la ubicación de la empresa para conocer su sede, verificar confianza y planificar visita. | 5 |
 | 59 | US-59 | Política de privacidad | Como visitante, deseo leer la política de privacidad para conocer manejo de datos, confiar en la plataforma y cumplir regulaciones. | 5 |
 | 60 | US-60 | API de datos de impacto | Como desarrollador, deseo registrar datos de impacto vía API para actualizar información, garantizar trazabilidad y mantener sincronización IoT. | 3 |
-05-cap4-product-design.md:
+
 <div style="page-break-after: always;"></div>
 
 # **Capítulo IV: Product Design**
@@ -1239,7 +1240,7 @@ The *Product Backlog* is the prioritized list of features, improvements, and tec
 
 Una guía de estilo es un conjunto de reglas y estándares que definen cómo deben escribirse, diseñarse y presentarse los documentos, el contenido web y el software. A continuación, se presentan las especificaciones de los parámetros implementados en la estructura del proyecto.
 
-### 4.1.1. General Style Guidelines 
+### 4.1.1. General Style Guidelines
 
 * Branding History
 
@@ -1259,15 +1260,15 @@ Una guía de estilo es un conjunto de reglas y estándares que definen cómo deb
 
   La paleta de colores de GlassGo consiste en tonos que transmiten confianza, rapidez y profesionalismo, valores esenciales para una marca enfocada en la entrega segura de productos. El azul principal refleja estabilidad y seguridad, mientras que el naranja añade dinamismo y movimiento, reforzando la idea de inmediatez. El gris neutro equilibra y añade sobriedad, asegurando una comunicación clara y profesional.
 
-  * Azul → *#002140*
+    * Azul → *#002140*
 
-    ![Blue](assets/images/cap4/general/Blue.png)
+      ![Blue](assets/images/cap4/general/Blue.png)
 
-  * Gris Medio → *#6B6B6B*
-  * Blanco → *#FFFFFF*
-  * Negro → *#000000*
+    * Gris Medio → *#6B6B6B*
+    * Blanco → *#FFFFFF*
+    * Negro → *#000000*
 
-    ![Gray](assets/images/cap4/general/Gris.png)![White](assets/images/cap4/general/white.png)![Black](assets/images/cap4/general/black.png)
+      ![Gray](assets/images/cap4/general/Gris.png)![White](assets/images/cap4/general/white.png)![Black](assets/images/cap4/general/black.png)
 
 * Spacing
 
@@ -1277,9 +1278,9 @@ Una guía de estilo es un conjunto de reglas y estándares que definen cómo deb
 
 ### 4.1.2. Web Style Guidelines
 
-  Para GlassGo, planeamos desarrollar una plataforma web. Por lo tanto, implementaremos un diseño responsivo (conocido como Web Responsive Design) con el objetivo de optimizar la presentación de la información en cualquier dispositivo. Esto garantizará que el contenido se mantenga intacto y, en última instancia, mejore la experiencia del usuario.
+Para GlassGo, planeamos desarrollar una plataforma web. Por lo tanto, implementaremos un diseño responsivo (conocido como Web Responsive Design) con el objetivo de optimizar la presentación de la información en cualquier dispositivo. Esto garantizará que el contenido se mantenga intacto y, en última instancia, mejore la experiencia del usuario.
 
-  Como equipo, hemos decidido incorporar el diseño en patrón F en nuestro sitio web. Este patrón es especialmente adecuado para GlassGo, ya que los usuarios tienden a explorar el contenido rápidamente y priorizan la información en la parte superior e izquierda de la pantalla. Esto ayuda a resaltar los datos relevantes desde el principio y facilita la lectura de las secciones clave.
+Como equipo, hemos decidido incorporar el diseño en patrón F en nuestro sitio web. Este patrón es especialmente adecuado para GlassGo, ya que los usuarios tienden a explorar el contenido rápidamente y priorizan la información en la parte superior e izquierda de la pantalla. Esto ayuda a resaltar los datos relevantes desde el principio y facilita la lectura de las secciones clave.
 
 ## 4.2. Information Architecture
 
@@ -1331,92 +1332,92 @@ Para los sistemas de etiquetado, hemos elegido organizar el contenido a través 
 
 * ### Landing Page
 
-  * Charset:
-    *<meta charset="utf-8">*
+    * Charset:
+      *<meta charset="utf-8">*
 
-    Indica al navegador cómo interpretar los caracteres de texto. Al especificar UTF-8, se asegura de que la página de aterrizaje de GlassGo  muestre correctamente tildes, la letra "ñ" y símbolos especiales, asegurando una visualización adecuada en cualquier idioma
+      Indica al navegador cómo interpretar los caracteres de texto. Al especificar UTF-8, se asegura de que la página de aterrizaje de GlassGo  muestre correctamente tildes, la letra "ñ" y símbolos especiales, asegurando una visualización adecuada en cualquier idioma
 
-  * Viewport(responsive):
-    *<meta name="viewport" content="width=device-width, initial-scale=1">*
+    * Viewport(responsive):
+      *<meta name="viewport" content="width=device-width, initial-scale=1">*
 
-    Permite que la página se adapte a diferentes dispositivos (móvil, tableta, PC), asegurando que la presentación de GlassGo sea legible y óptima en cualquier pantalla.
+      Permite que la página se adapte a diferentes dispositivos (móvil, tableta, PC), asegurando que la presentación de GlassGo sea legible y óptima en cualquier pantalla.
 
-  * Title(SEO):
-    *<title>GlassGo | Transporte Seguro y Trazabilidad de Envíos de Vidrio</title>*
+    * Title(SEO):
+      *<title>GlassGo | Transporte Seguro y Trazabilidad de Envíos de Vidrio</title>*
 
-    Define el título que aparecerá en la pestaña del navegador y en los resultados de búsqueda. Su función es proporcionar una descripción clara y concisa del servicio principal de GlassGo.
+      Define el título que aparecerá en la pestaña del navegador y en los resultados de búsqueda. Su función es proporcionar una descripción clara y concisa del servicio principal de GlassGo.
 
-  * Meta Description:
-    *<meta name="description" content="GlassGo ofrece transporte seguro y trazabilidad de envíos de vidrio. Reduce pérdidas, asegura la integridad del producto y mejora la eficiencia logística.">*
+    * Meta Description:
+      *<meta name="description" content="GlassGo ofrece transporte seguro y trazabilidad de envíos de vidrio. Reduce pérdidas, asegura la integridad del producto y mejora la eficiencia logística.">*
 
-    Proporciona un resumen breve que aparecerá en los resultados de búsqueda. Su objetivo es atraer a usuarios interesados en logística sostenible y soluciones de transporte seguro.
+      Proporciona un resumen breve que aparecerá en los resultados de búsqueda. Su objetivo es atraer a usuarios interesados en logística sostenible y soluciones de transporte seguro.
 
-  * Meta keywords(SEO, deprecated for Google):
-    *<meta name="keywords" content="transporte de vidrio, logística sostenible, trazabilidad, distribución segura, envío rápido, GlassGo">*
+    * Meta keywords(SEO, deprecated for Google):
+      *<meta name="keywords" content="transporte de vidrio, logística sostenible, trazabilidad, distribución segura, envío rápido, GlassGo">*
 
-    Identifica palabras clave relacionadas con el servicio de GlassGo. Aunque su impacto es actualmente limitado, sigue siendo útil para sistemas de indexación básicos.
+      Identifica palabras clave relacionadas con el servicio de GlassGo. Aunque su impacto es actualmente limitado, sigue siendo útil para sistemas de indexación básicos.
 
-  * Meta Authors:
-    *<meta name="author" content="Equipo de GlassGo">*
+    * Meta Authors:
+      *<meta name="author" content="Equipo de GlassGo">*
 
-    Atribuye la autoría del contenido de la página de aterrizaje al equipo del proyecto GlassGo.
+      Atribuye la autoría del contenido de la página de aterrizaje al equipo del proyecto GlassGo.
 
-  * Meta Robots:
-    *<meta name="robots" content="index, follow">*
+    * Meta Robots:
+      *<meta name="robots" content="index, follow">*
 
-    Permite que los motores de búsqueda indexen la página de GlassGo y sigan sus enlaces, asegurando una mayor visibilidad.
+      Permite que los motores de búsqueda indexen la página de GlassGo y sigan sus enlaces, asegurando una mayor visibilidad.
 
-  * Meta Language:
-    *<meta name="language" content="es">*
+    * Meta Language:
+      *<meta name="language" content="es">*
 
-    Indica que el contenido de la página de aterrizaje está en español, optimizando su indexación y compatibilidad con navegadores.
+      Indica que el contenido de la página de aterrizaje está en español, optimizando su indexación y compatibilidad con navegadores.
 
-  * Meta Copyright:
-    *<meta name="copyright" content="GlassGo 2025">*
+    * Meta Copyright:
+      *<meta name="copyright" content="GlassGo 2025">*
 
-    Indica la titularidad de los derechos de autor del contenido y diseño de la página de aterrizaje.
+      Indica la titularidad de los derechos de autor del contenido y diseño de la página de aterrizaje.
 
 * ### Aplicación Web
 
-  * Charset:
-    *<meta charset="utf-8">*
+    * Charset:
+      *<meta charset="utf-8">*
 
-    Asegura que todos los caracteres y símbolos en la interfaz de la aplicación GlassGo se muestren correctamente.
+      Asegura que todos los caracteres y símbolos en la interfaz de la aplicación GlassGo se muestren correctamente.
 
-  * Viewport(responsive):
-    *<meta name="viewport" content="width=device-width, initial-scale=1">*
+    * Viewport(responsive):
+      *<meta name="viewport" content="width=device-width, initial-scale=1">*
 
-    Asegura que la aplicación web (panel de gestión, tablero de trazabilidad) sea completamente responsiva y se adapte a diferentes dispositivos.
+      Asegura que la aplicación web (panel de gestión, tablero de trazabilidad) sea completamente responsiva y se adapte a diferentes dispositivos.
 
-  * Title(SEO):
-    *<title>Aplicación GlassGo | Trazabilidad y Panel de Gestión</title>*
+    * Title(SEO):
+      *<title>Aplicación GlassGo | Trazabilidad y Panel de Gestión</title>*
 
-    Define el título que aparece en el navegador para identificar el panel de la aplicación web.
+      Define el título que aparece en el navegador para identificar el panel de la aplicación web.
 
-  * Meta Description:
-    *<meta name="description" content="Panel interno de GlassGo para gestionar envíos, trazabilidad y planes de suscripción. Acceso exclusivo para usuarios registrados.">*
+    * Meta Description:
+      *<meta name="description" content="Panel interno de GlassGo para gestionar envíos, trazabilidad y planes de suscripción. Acceso exclusivo para usuarios registrados.">*
 
-    Describe el contenido del panel, aunque su relevancia SEO es limitada ya que es un espacio interno.
+      Describe el contenido del panel, aunque su relevancia SEO es limitada ya que es un espacio interno.
 
-  * Meta Authors:
-    *<meta name="author" content="Equipo de GlassGo">*
+    * Meta Authors:
+      *<meta name="author" content="Equipo de GlassGo">*
 
-    Atribuye el desarrollo del panel de control a la marca.
+      Atribuye el desarrollo del panel de control a la marca.
 
-  * Meta Robots:
-    *<meta name="robots" content="noindex, nofollow">*
+    * Meta Robots:
+      *<meta name="robots" content="noindex, nofollow">*
 
-    Evita que los motores de búsqueda indexen el contenido privado de la aplicación (historial de envíos, métricas, etc.).
+      Evita que los motores de búsqueda indexen el contenido privado de la aplicación (historial de envíos, métricas, etc.).
 
-  * Meta Language:
-    *<meta name="language" content="es">*
+    * Meta Language:
+      *<meta name="language" content="es">*
 
-    Declara el español como el idioma principal del panel de GlassGo.
+      Declara el español como el idioma principal del panel de GlassGo.
 
-  * Meta Copyright:
-    *<meta name="copyright" content="GlassGo 2025">*
+    * Meta Copyright:
+      *<meta name="copyright" content="GlassGo 2025">*
 
-    Protege legalmente el contenido y diseño del software de GlassGo.
+      Protege legalmente el contenido y diseño del software de GlassGo.
 
 ### 4.2.4. Searching Systems
 
@@ -1425,29 +1426,29 @@ El motor de búsqueda es fundamental para que los usuarios encuentren rápidamen
 
   Las búsquedas basadas en objetivos permitirán a los propietarios de negocios, transportistas y distribuidores:
 
-  * Identificar impactos en la carga en las últimas 24 horas
-  * Anticipar rutas con altas tasas de incidentes durante el tránsito, guardando esta información para que otros transportistas puedan manejar con precaución
-  * Generar evidencia si un reclamo es realizado por el cliente o proveedor
-  * Verificar el estado de la carga antes de la aceptación
-  * Etiquetar inventario de alta prioridad durante temporadas pico
-  * Consultar el historial de transporte para prevenir posibles roturas de carga
+    * Identificar impactos en la carga en las últimas 24 horas
+    * Anticipar rutas con altas tasas de incidentes durante el tránsito, guardando esta información para que otros transportistas puedan manejar con precaución
+    * Generar evidencia si un reclamo es realizado por el cliente o proveedor
+    * Verificar el estado de la carga antes de la aceptación
+    * Etiquetar inventario de alta prioridad durante temporadas pico
+    * Consultar el historial de transporte para prevenir posibles roturas de carga
 
 ### 4.2.5. Navigation Systems
 
 El Sistema de Navegación es la estructura que permite a los usuarios moverse de manera eficiente entre diferentes secciones y páginas de la aplicación.
 
 * Estructura de Navegación
-  * Logo - link to Homepage
-  * Homepage— resumen / landing con beneficios y CTA
-  * Solutions / Servicios — páginas por segmento
-    * Transportistas
-    * Distribuidores
-    * Comercios (Dueños de negocio)
-  * Subscriptions / Planes — comparación de planes y precios
-  * Support / Soporte — Centro de ayuda, FAQ, contacto
-  * Contact — formulario de contacto / ventas
-  * Buscar (Search) — campo de búsqueda global
-  * Botón Log In / Sign Up (derecha)
+    * Logo - link to Homepage
+    * Homepage— resumen / landing con beneficios y CTA
+    * Solutions / Servicios — páginas por segmento
+        * Transportistas
+        * Distribuidores
+        * Comercios (Dueños de negocio)
+    * Subscriptions / Planes — comparación de planes y precios
+    * Support / Soporte — Centro de ayuda, FAQ, contacto
+    * Contact — formulario de contacto / ventas
+    * Buscar (Search) — campo de búsqueda global
+    * Botón Log In / Sign Up (derecha)
 
 
 ## 4.3. Landing Page UI Design
@@ -1571,7 +1572,7 @@ Los diagramas abarcan la gestión de inventario, el seguimiento de envíos, el u
   **![Log in](assets/images/cap4/style-guidelines/Mockups/Log%20in/login-Sign%20in.png)**
 
 * Google Login – Acceso Rápido
-Alternativa de autenticación utilizando la cuenta de Google para agilizar el proceso de inicio de sesión.
+  Alternativa de autenticación utilizando la cuenta de Google para agilizar el proceso de inicio de sesión.
 
   **![Log in - Google](assets/images/cap4/style-guidelines/Mockups/Log%20in/Login-Sign%20in-Google.png)**
 
@@ -1584,82 +1585,82 @@ Alternativa de autenticación utilizando la cuenta de Google para agilizar el pr
   **![Sign up](assets/images/cap4/style-guidelines/Mockups/Log%20in/Register-Sign%20up.png)**
 
 * Pantalla de Bienvenida de GlassGo
-Presenta la identidad visual del sistema antes de ingresar al panel principal.
+  Presenta la identidad visual del sistema antes de ingresar al panel principal.
 
-   **![Succesful](assets/images/cap4/style-guidelines/Mockups/Log%20in/Register-Loading-Succesful-maybe.png)**
+  **![Succesful](assets/images/cap4/style-guidelines/Mockups/Log%20in/Register-Loading-Succesful-maybe.png)**
 
 #### Segmentos 2 & 3: Distribuidores de Licores y Propietarios de Negocios
 
 * Vista inicial con resumen de viajes activos, notificaciones y acceso rápido.
-  
+
   **![Home](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Home.png)**
 
 * Crear y ver resumen de órdenes de entrega asignadas.
-  
+
   **![Create Order](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Create_order.png)**
 
 * Muestra la ruta actual con origen, destino y puntos de control definidos.
-  
+
   **![Tracking](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Traking.png)**
 
 * Ver ubicación en tiempo real del camión, mostrando desvíos, impactos o alertas de exceso de velocidad.
-  
+
   **![Detailed Tracking](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Traking_complete.png)**
 
 * Muestra los productos transportados y su estado. Permite reportar incidentes o confirmar recepción.
-  
+
   **![Inventory](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Inventary.png)**
 
 * Muestra fechas programadas y horas estimadas de llegada (ETA) para la planificación de rutas.
-  
+
   **![Calendar](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Calendar.png)**
 
 * Formulario para registrar eventos como retrasos, daños o alertas durante el viaje.
-  
+
   **![Report](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Report.png)**
 
 * Registro de viajes completados con información de fechas, horas y distancias.
-  
+
   **![History](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/History.png)**
 
 * Muestra reclamos asociados a entregas anteriores para referencia y seguimiento.
-  
+
   **![Claim](assets/images/cap4/style-guidelines/Mockups/Distrubidores&dueños/Claim.png)**
 
 
 #### Segmento 1: Transportistas
 
 * Resumen general de órdenes activas, entregas y estadísticas de rendimiento.
-  
+
   **![Home](assets/images/cap4/style-guidelines/Mockups/Transportes/Customers/camiones.png)**
 
 * Muestra los negocios asociados y sus órdenes recientes.
-  
+
   **![Customer](assets/images/cap4/style-guidelines/Mockups/Transportes/Clientes/Camiones.png)**
 
 * Muestra la ubicación en tiempo real de los camiones asignados en el mapa.
-  
+
   **![Tracking](assets/images/cap4/style-guidelines/Mockups/Transportes/Tracking/camiones.png)**
 
 * Ver productos disponibles con cantidad, estado y opción para editar registros.
-  
+
   **![Stock](assets/images/cap4/style-guidelines/Mockups/Transportes/Stock%20management.png)**
 
 * Revisar y organizar entregas próximas a través de un calendario visual.
-  
+
   **![Calendar](assets/images/cap4/style-guidelines/Mockups/Transportes/Calendar/camiones.png)**
 
 * Muestra métricas comparativas de tiempo, distancia y costos de entrega.
-  
+
   **![Report](assets/images/cap4/style-guidelines/Mockups/Transportes/Report/camiones.png)**
 
 * Registro de compras anteriores con estado, fecha y monto.
-  
+
   **![History](assets/images/cap4/style-guidelines/Mockups/Transportes/Shipping%20history.png)**
 
 * Permite la comunicación directa con los transportistas desde el panel.
-  
-  **![Communication](assets/images/cap4/style-guidelines/Mockups/Transportes/Claims%20registry.png)**  
+
+  **![Communication](assets/images/cap4/style-guidelines/Mockups/Transportes/Claims%20registry.png)**
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -1703,35 +1704,35 @@ El Diseño Orientado al Dominio (DDD) se centra en modelar el sistema en funció
   ![event_storming_global](assets/images/cap4/diagrams/eventstorming/design-level/GlassGo_EventStorming.png)
 
 * Vistas Específicas por Bounded Context:
-  * **Identity Access**
+    * **Identity Access**
 
   ![identity_&_access_management](assets/images/cap4/diagrams/eventstorming/design-level/Identity_Access_Management.png)
 
-  * **Profiles Preferences**
+    * **Profiles Preferences**
 
   ![profile_&_preferences](assets/images/cap4/diagrams/eventstorming/design-level/Profile_Preferences.png)
 
-  * **Payments Subscriptions**
+    * **Payments Subscriptions**
 
   ![payments_&_subscriptions](assets/images/cap4/diagrams/eventstorming/design-level/Payments_Subscriptions.png)
 
-  * **Service Planning**
+    * **Service Planning**
 
   ![service_planning](assets/images/cap4/diagrams/eventstorming/design-level/Service_Planning.png)
 
-  * **Service Execution**
+    * **Service Execution**
 
   ![service_execution_&_monitoring](assets/images/cap4/diagrams/eventstorming/design-level/Service_Execution_Monitoring.png)
 
-  * **Dashboard Analytics**
+    * **Dashboard Analytics**
 
   ![dashboard_&_analytics](assets/images/cap4/diagrams/eventstorming/design-level/Dashboard_Analytics.png)
 
-  * **Loyalty Engagement**
+    * **Loyalty Engagement**
 
   ![loyalty_&_engagement](assets/images/cap4/diagrams/eventstorming/design-level/Loyalty_Engagement.png)
 
-  * **System Administration**
+    * **System Administration**
 
   ![system_administration](assets/images/cap4/diagrams/eventstorming/design-level/System_Administration.png)
 
@@ -1739,26 +1740,26 @@ El Diseño Orientado al Dominio (DDD) se centra en modelar el sistema en funció
 
 
 * Persona:
-  * **Transportista:** Conduce el camión y utiliza la aplicación móvil para ver rutas, registrar inicio/finalización de viajes y recibir alertas de impacto.
-  * **Distribuidor:** Supervisa los envíos desde oficinas. Revisa el panel web, descarga informes.
-  * **Propietario de Negocio:** Cliente final que desea saber si su pedido llegará a tiempo y sin roturas.
-  * **Administrador de RPG:** Personal de la startup para gestión interna, soporte y mantenimiento.
+    * **Transportista:** Conduce el camión y utiliza la aplicación móvil para ver rutas, registrar inicio/finalización de viajes y recibir alertas de impacto.
+    * **Distribuidor:** Supervisa los envíos desde oficinas. Revisa el panel web, descarga informes.
+    * **Propietario de Negocio:** Cliente final que desea saber si su pedido llegará a tiempo y sin roturas.
+    * **Administrador de RPG:** Personal de la startup para gestión interna, soporte y mantenimiento.
 * Sistema de Software:
-  * **GlassGo:** Sistema central que ofrece trazabilidad, optimización de rutas y monitoreo.
-  * **Google Maps:** Plataforma que proporciona una API REST para información geo-referencial.
-  * **PayPal:** Pasarela de pago para cargos de membresía.
-  * **Twilio:** Servicio de notificaciones para enviar SMS, correos electrónicos o notificaciones push.
+    * **GlassGo:** Sistema central que ofrece trazabilidad, optimización de rutas y monitoreo.
+    * **Google Maps:** Plataforma que proporciona una API REST para información geo-referencial.
+    * **PayPal:** Pasarela de pago para cargos de membresía.
+    * **Twilio:** Servicio de notificaciones para enviar SMS, correos electrónicos o notificaciones push.
 
 ![context-diagram](assets/images/cap4/domain-driven-software-arquitecture/context-diagram.png)
 
 ### 4.6.3. Diagramas de Contenedor de Arquitectura de Software
 
 * Contenedor:
-  * **Aplicación Móvil:** Aplicación para dispositivos móviles
-  * **Página de Aterrizaje:** Página de inicio
-  * **Aplicación Web:** Aplicación para gestión y seguimiento
-  * **API REST:** API REST para acceso a datos y lógica de negocio
-  * **DB:** Base de datos relacional
+    * **Aplicación Móvil:** Aplicación para dispositivos móviles
+    * **Página de Aterrizaje:** Página de inicio
+    * **Aplicación Web:** Aplicación para gestión y seguimiento
+    * **API REST:** API REST para acceso a datos y lógica de negocio
+    * **DB:** Base de datos relacional
 
 ![container-diagram](assets/images/cap4/domain-driven-software-arquitecture/container-diagram.png)
 
@@ -1802,38 +1803,38 @@ El Diseño Orientado a Objetos se centra en la estructura lógica del dominio de
 
 **Vistas Específicas por Bounded Context**
 
-  
-  * **Identity Access Class Diagram:**
 
-    ![class-diagram1](assets/images/cap4/software-object-oriented-design/class-diagram1.png)
-  
-  * **Profile Preferences Class Diagram:**
+* **Identity Access Class Diagram:**
 
-    ![class-diagram2](assets/images/cap4/software-object-oriented-design/class-diagram2.png)
-  
-  * **Payment Subscription Class Diagram:**
+  ![class-diagram1](assets/images/cap4/software-object-oriented-design/class-diagram1.png)
 
-    ![class-diagram3](assets/images/cap4/software-object-oriented-design/class-diagram3.png)
+* **Profile Preferences Class Diagram:**
 
-  * **Service Planning Class Diagram:**
+  ![class-diagram2](assets/images/cap4/software-object-oriented-design/class-diagram2.png)
 
-    ![class-diagram4](assets/images/cap4/software-object-oriented-design/class-diagram4.png)
-  
-  * **Service Execution Monitoring Class Diagram:**
+* **Payment Subscription Class Diagram:**
 
-    ![class-diagram5](assets/images/cap4/software-object-oriented-design/class-diagram5.png)
+  ![class-diagram3](assets/images/cap4/software-object-oriented-design/class-diagram3.png)
 
-  * **Dashboard Analytics Class Diagram:**
+* **Service Planning Class Diagram:**
 
-    ![class-diagram6](assets/images/cap4/software-object-oriented-design/class-diagram6.png)
+  ![class-diagram4](assets/images/cap4/software-object-oriented-design/class-diagram4.png)
 
-  * **Loyalty Engagement Class Diagram:**
+* **Service Execution Monitoring Class Diagram:**
 
-    ![class-diagram7](assets/images/cap4/software-object-oriented-design/class-diagram7.png)
+  ![class-diagram5](assets/images/cap4/software-object-oriented-design/class-diagram5.png)
 
-  * **System Administration Class Diagram:**
+* **Dashboard Analytics Class Diagram:**
 
-    ![class-diagram8](assets/images/cap4/software-object-oriented-design/class-diagram8.png)
+  ![class-diagram6](assets/images/cap4/software-object-oriented-design/class-diagram6.png)
+
+* **Loyalty Engagement Class Diagram:**
+
+  ![class-diagram7](assets/images/cap4/software-object-oriented-design/class-diagram7.png)
+
+* **System Administration Class Diagram:**
+
+  ![class-diagram8](assets/images/cap4/software-object-oriented-design/class-diagram8.png)
 
 
 ## 4.8. Database Design
@@ -1848,38 +1849,38 @@ El diseño de la base de datos define la estructura relacional utilizada por el 
 
 * **Vistas Específicas por Bounded Context**
 
-  * **Identity Access Database Diagram:**
+    * **Identity Access Database Diagram:**
 
-    ![database-diagram1](assets/images/cap4/diagrams/database/Identity_Access_DataBase_Diagram.png)
-  
-  * **Profile Preferences Database Diagram:**
+      ![database-diagram1](assets/images/cap4/diagrams/database/Identity_Access_DataBase_Diagram.png)
 
-    ![database-diagram2](assets/images/cap4/diagrams/database/Profile_Preferences_DataBase_Diagram.png)
+    * **Profile Preferences Database Diagram:**
 
-  * **Payment Subscriptions Database Diagram:**
+      ![database-diagram2](assets/images/cap4/diagrams/database/Profile_Preferences_DataBase_Diagram.png)
 
-    ![database-diagram3](assets/images/cap4/diagrams/database/Payments_Subscriptions_DataBase_Diagram.png)
-  
-  * **Service Planning Database Diagram:**
+    * **Payment Subscriptions Database Diagram:**
 
-    ![database-diagram4](assets/images/cap4/diagrams/database/Service_Planning_DataBase_Diagram.png)
+      ![database-diagram3](assets/images/cap4/diagrams/database/Payments_Subscriptions_DataBase_Diagram.png)
 
-  * **Service Execution Monitoring Database Diagram:**
+    * **Service Planning Database Diagram:**
 
-    ![database-diagram5](assets/images/cap4/diagrams/database/Service_Execution_Monitoring_DataBase_Diagram.png)
+      ![database-diagram4](assets/images/cap4/diagrams/database/Service_Planning_DataBase_Diagram.png)
 
-  * **Dashboard Analytics Database Diagram:**
+    * **Service Execution Monitoring Database Diagram:**
 
-    ![database-diagram6](assets/images/cap4/diagrams/database/Dashboard_Analytics_DataBase_Diagram.png)
+      ![database-diagram5](assets/images/cap4/diagrams/database/Service_Execution_Monitoring_DataBase_Diagram.png)
 
-  * **Loyalty Engagement Database Diagram:**
+    * **Dashboard Analytics Database Diagram:**
 
-    ![database-diagram7](assets/images/cap4/diagrams/database/Loyalty_Engagement_DataBase_Diagram.png)
+      ![database-diagram6](assets/images/cap4/diagrams/database/Dashboard_Analytics_DataBase_Diagram.png)
 
-  * **System Administration Database Diagram:**
+    * **Loyalty Engagement Database Diagram:**
 
-    ![database-diagram8](assets/images/cap4/diagrams/database/System_Administration_DataBase_Diagram.png)
-06-cap5-prod-implementation-validation-deployment.md:
+      ![database-diagram7](assets/images/cap4/diagrams/database/Loyalty_Engagement_DataBase_Diagram.png)
+
+    * **System Administration Database Diagram:**
+
+      ![database-diagram8](assets/images/cap4/diagrams/database/System_Administration_DataBase_Diagram.png)
+
 <div style="page-break-after: always;"></div>
 
 # **Capítulo V: Product Implementation, Validation & Deployment**
@@ -2318,7 +2319,7 @@ El objetivo principal de este Sprint es consolidar una experiencia funcional com
 
 ![cap5](assets/images/cap5/Trello3.png)
 
-Trello: [https://trello.com/invite/b/69000c76fa893622d701697c/ATTI60bf0022730e8c5c23ff3f754d43e9b185AF029B/sprint-backlog-32](https://trello.com/invite/b/69000c76fa893622d701697c/ATTI60bf0022730e8c5c23ff3f754d43e9b185AF029B/sprint-backlog-32) 
+Trello: [https://trello.com/invite/b/69000c76fa893622d701697c/ATTI60bf0022730e8c5c23ff3f754d43e9b185AF029B/sprint-backlog-32](https://trello.com/invite/b/69000c76fa893622d701697c/ATTI60bf0022730e8c5c23ff3f754d43e9b185AF029B/sprint-backlog-32)
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
@@ -2602,7 +2603,19 @@ Integración visual basada en Vue con VuePrime y Primeflex.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
-Web Services (Backend):
+**Web Aplication (Frontend):**
+
+- Se crea un dominio en firebase.
+
+- Se ingresa a la implementacion de la consola de firebase.
+
+<img src="assets/images/cap5/Implementado-Firebase.png" alt=“Descargar” >
+
+- Deploy: https://tinyurl.com/mu3mrstu
+
+<img src="assets/images/cap5/Deploy-Firebase.png" alt=“Descargar” >
+
+**Web Services (Backend):**
 
 En el backend de la plataforma se realizaron importantes avances enfocados en la gestión de pedios, suministros y lotes. Se implementaron un manejo detallado para los insumos, además de validar y reforzar la integridad de datos mediante objetos de valor específicos. También se añadieron configuraciones para ambientes de desarrollo y producción, y se mejoraron las definiciones de columnas en la base de datos para optimizar el manejo de fechas, precios y cantidades. Se desarrollaron servicios y controladores que facilitan la interacción con los recursos, permitiendo una gestión eficiente y segura de los datos relacionados con el inventario y las operaciones del sistema.
 
@@ -2621,6 +2634,15 @@ En el backend de la plataforma se realizaron importantes avances enfocados en la
 - Render detecta automáticamente el proyecto como una aplicación de Spring Boot y configura el build y run commands por defecto.
 
 <img src="assets/images/cap5/Deploy-Backend-3.png" alt=“Descargar” >
+
+- Demostración de despliegue con la fecha actual.
+
+<img src="assets/images/cap5/Deploy-Render-Fecha.jpeg" alt=“Descargar” >
+
+- Deploy en render: https://tinyurl.com/3raett86
+
+<img src="assets/images/cap5/Deploy-render.png" alt=“Descargar” >
+
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
@@ -2675,7 +2697,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 
 Elementos a validar:
 
-- Creación de orden de compra. 
+- Creación de orden de compra.
 - Seguimiento de pedidos.
 - Gestión de inventario de insumos.
 - Creación de tablas de productos.
@@ -2688,7 +2710,7 @@ Flujos de Usuario a evaluar:
 - **Desktop & Mobile User Flow 5:** Visualización de pedidos.
 - **Desktop & Mobile User Flow 6:** Seguimiento de pedidos.
 - **Desktop & Mobile User Flow 7:** Reclamaciones a proveedores.
-- 
+-
 Actividades durante la sesión:
 
 1. Explorar el Landing Page y describir su comprensión del producto.
@@ -2765,7 +2787,7 @@ Alejandro Rodríguez, de 37 años, es propietario de un bar de tamaño mediano u
 2. Seguimiento de pedidos
 3. Gestión de inventario de insumos
 4. Creación de tablas de productos
-5. Registro de historial 
+5. Registro de historial
 
 ---
 
@@ -2838,30 +2860,54 @@ Como parte de la validación del producto, se incluye también el testimonio de 
 
 A continuación, se incluye un screenshot del video, junto con los enlaces de la versión publicada en Microsoft Stream y YouTube.
 
+<img src="assets/images/cap5/About-The-Product.png" alt=“Descargar” >
+
 https://youtu.be/fgSdkh02vZo
 
 https://tinyurl.com/2nj6czbv
 
 <div style="page-break-after: always;"></div>
 
-# **Conclusiones y Recomendaciones**
+# **Conclusiones**
 
-## Conclusiones
+## Conclusiones y Recomendaciones
 
-Durante el desarrollo del proyecto _GlassGo_, hemos logrado identificar y comprender las necesidades del mercado objetivo, así como diseñar una solución tecnológica que responde a dichas necesidades. A través de un análisis exhaustivo y la aplicación de metodologías ágiles, hemos podido iterar sobre nuestro producto, mejorando su funcionalidad y usabilidad.
+El desarrollo de _GlassGo_ ha permitido comprender a profundidad las dificultades que enfrentan las empresas de transporte, distribuidores y comercios en el manejo de licores en envases de vidrio dentro del mercado peruano. A partir del estudio realizado, se concluye lo siguiente:
 
-## Recomendaciones
+Existe una problemática estructural en la cadena logística, caracterizada por flotas antiguas, procesos manuales, falta de trazabilidad y altos índices de rotura, lo que afecta directamente los costos operativos y el desempeño comercial de las empresas.
+
+La falta de digitalización es un factor crítico, ya que la mayoría de empresas pequeñas y medianas no cuentan con tecnologías que permitan monitorear la ubicación y el estado de su carga en tiempo real, generando pérdidas económicas y desconfianza entre transportistas y clientes.
+
+GlassGo se posiciona como una solución integral, al combinar rastreo GPS, optimización de rutas y sensores inteligentes para la prevención de daños en la carga. Este enfoque holístico permite no solo reducir pérdidas, sino también mejorar la eficiencia operativa.
+
+El modelo de negocio basado en membresía mensual fortalece la accesibilidad, permitiendo que empresas de todos los tamaños adopten tecnología avanzada sin altos costos iniciales.
+
+Durante el desarrollo del proyecto se logró definir claramente el problema, diseñar un prototipo funcional y validar la necesidad del mercado, lo que constituye una base sólida para la progresion a futuras pruebas y implemetanciones.
 
 - Se recomienda realizar pruebas de usabilidad con usuarios finales para obtener retroalimentación directa y mejorar la experiencia del usuario.
+
+- Implementar un piloto controlado con transportistas y distribuidores, para validar el rendimiento del GPS, sensores y algoritmo de rutas en escenarios reales.
+
+- Fortalecer el análisis de datos para la prevención de roturas, incorporando métricas de vibración, rutas y condiciones del vehículo para generar alertas predictivas.
+
+- Refinar la seguridad del sistema, garantizando el manejo adecuado de datos sensibles mediante encriptación, autenticación robusta y políticas de acceso.
+
+- Incorporar indicadores de desempeño (KPI) que permitan a los usuarios evaluar ahorro, eficiencia de rutas, porcentaje de entregas completas y reducción de roturas.
+
+- Buscar alianzas estratégicas con aseguradoras, distribuidores y fabricantes de licores para impulsar la adopción y fortalecer el ecosistema logístico.
+
+- Planificar la escalabilidad regional del producto, expandiéndose gradualmente a otros países con problemáticas logísticas similares una vez validado el modelo en Perú.
 
 ## Video About-the-Team
 
 A continuación, encontrará una captura de pantalla del vídeo, junto con enlaces a la versión publicada en Microsoft Stream y YouTube.
 
+<img src="assets/images/annexes/About-The-Team.png" alt=“Descargar” >
+
 https://www.youtube.com/watch?v=Kd3LH6Srh8U
 
 https://tinyurl.com/2rp473k6
-08-bibliografia.md:
+
 <div style="page-break-after: always;"></div>
 
 # **Bibliografía**
@@ -2934,23 +2980,13 @@ https://tinyurl.com/2rp473k6
 
 <div class="page"></div>
 
-## Anexo D. About The Team
+## Anexo D. Deploy
 
-- Link del video: https://tinyurl.com/2rp473k6
+- Link del despliegue del Frontend en firebase: https://tinyurl.com/mu3mrstu
 
-<img src="assets/images/annexes/AnexoC.png" alt=“Descargar” >
+- Link del despliegue del Backend en render: https://tinyurl.com/3raett86
 
-<div class="page"></div>
-
-## Anexo E. About The Product
-
-- Link del video: https://tinyurl.com/2nj6czbv
-
-<img src="assets/images/annexes/AnexoD.png" alt=“Descargar” >
-
-<div class="page"></div>
-
-## Videos de Exposiciones
+## Anexo E. Videos de Exposiciones
 
 **TP1**
 
