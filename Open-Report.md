@@ -2545,18 +2545,35 @@ Trello: https://tinyurl.com/4mx2dvz8
 
 Se lograron avances significativos en el desarrollo de la interfaz de la plataforma, centrándose en la creación de pedidos, los perfiles de usuario y la gestión de inventario. También se perfeccionaron los componentes visuales para mejorar la experiencia del usuario. Estos cambios buscan fortalecer la plataforma y facilitar su uso en diversos contextos operativos.
 
-| Repository       | Branch  | Author        | Commit Id | Commit Message                                                           | Commit Message Body                                                                                      | Commited on (Date) |
-|------------------|---------|---------------|-----------|--------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------- |--------------------|
-| GlassGo-Frontend | develop | xxx    | xxx       | feat: xxxx     | xxx.                | 01-12-2025         |
-
+| Repository       | Branch  | Author          | Commit Id | Commit Message                           | Commit Message Body                                                          | Commited on (Date) |
+|------------------|---------|-----------------|-----------|------------------------------------------| ---------------------------------------------------------------------------- |--------------------|
+| GlassGo-Frontend | develop | Myke Dylan      | 8ccb237   | chore: remove service-planning order creation feature. | Se elimina la funcionalidad de creación de órdenes dentro del módulo de service-planning debido a desuso y reorganización del flujo actual. | 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | 4eb94b9   | refactor: update the file name to planning. | Se actualiza el nombre del archivo para alinearlo con la convención de nombres del proyecto y mejorar la claridad del código.| 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | d0cc6b3   | feat: add tracking view with search and map integration. | Se implementa la nueva vista de tracking con funcionalidad de búsqueda e integración de mapa para mejorar la localización y seguimiento de elementos.| 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | 3674604   | feat: add tracking map component with leaflet integration. | Se agrega el componente de mapa para tracking con integración de Leaflet, permitiendo visualizar ubicaciones de manera interactiva.| 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | a2b1747   | feat: add infrastructure layer for tracking api integration. | Se agrega la capa de infraestructura necesaria para la integración con la API de tracking. | 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | 134fba    | feat: add domain models for tracking in execution context.| Se añaden los modelos de dominio necesarios para el módulo de tracking dentro del contexto de ejecución. | 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | d4db2d    | feat: add tracking store and marker assets. | Se incorpora el nuevo store para la gestión del estado relacionado con el tracking, permitiendo centralizar la información de ubicaciones, actualizaciones y elementos mostrados en el mapa. | 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | b676b7d   | feat: add tracking data and Leaflet integration. | Se añade el manejo de datos de tracking junto con la integración de Leaflet para la visualización en el mapa. | 01-12-2025         |
+| GlassGo-Frontend | develop | Myke Dylan      | 68a94dc   | feat: add detailed documentation.| Se agrega documentación detallada para los módulos y componentes relacionados, incluyendo descripciones de funcionalidades, flujos internos y pautas de uso. | 01-12-2025         |
 
 **Backend (Web Services):**
 
 En el backend de la plataforma, se realizaron importantes avances centrados en la gestión de pedidos, suministros y lotes. Se implementó la gestión detallada de suministros, además de validar y reforzar la integridad de los datos mediante objetos de valor específicos. También se añadieron configuraciones para entornos de desarrollo y producción, y se mejoraron las definiciones de columnas de la base de datos para optimizar la gestión de fechas, precios y cantidades. Se desarrollaron servicios y controladores que facilitan la interacción con los recursos, permitiendo una gestión eficiente y segura de los datos relacionados con el inventario y las operaciones del sistema.
 
-| Repository      | Branch  | Author | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|-----------------|---------|--------|-----------|----------------|---------------------|--------------------|
-| GlassGo-Backend | develop | xxx    | xxx       | feat: xxxx     | xxx.                | 01-12-2025         |
+| Repository      | Branch  | Author      | Commit Id | Commit Message                                                                   | Commit Message Body | Commited on (Date) |
+|-----------------|---------|-------------|-----------|----------------------------------------------------------------------------------|--|--------------------|
+| GlassGo-Backend | develop | David Vivar | 2dede35   | fix: update api routes and configuration.                                        | Se actualizan las rutas de la API y la configuración asociada para asegurar la correcta comunicación entre los módulos del sistema. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | 13642cb   | refactor: report domain model to record throughout codebase.                     | Se refactoriza el modelo de dominio Report para utilizar record en todo el código, estandarizando su definición y mejorando la inmutabilidad y claridad de la estructura de datos. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | 283d3d1   | refactor: report model to use orderId and add order status history.              | Se actualiza el modelo de Report para reemplazar el identificador previo por orderId, alineándolo con la estructura actual del sistema y mejorando la coherencia en el manejo de órdenes. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | 556fbfd   | fix: update jwt secret with a longer key to comply spring security requirements. | Se actualiza la clave secreta utilizada para la generación y validación de JWT, reemplazándola por una versión más larga y segura que cumple con los requisitos mínimos establecidos por Spring Security. | 01-12-2025         |
+| GlassGo-Backend | develop | Myke Dylan  | cef4be9   | feat: add documentation of javadocs.                                             | Se añaden las documentaciones Javadoc a las clases, interfaces y métodos principales del proyecto, proporcionando descripciones claras de sus responsabilidades y comportamiento. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | a129d25   | feat: add jwt and spring security dependencies and config.                       | Se añaden las dependencias necesarias para JWT y Spring Security, habilitando la infraestructura base para la autenticación y autorización dentro del proyecto. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | 328f2cc   | feat: add initial iam context with user and role management.                     | Se actualiza la ruta correspondiente para que utilice correctamente CreateOrderComponent, corrigiendo la referencia previa que impedía la navegación adecuada. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | 511ac2e   | fix: remove clients module.                                                      | Se elimina el módulo de Clients al no ser ya necesario dentro de la estructura del proyecto. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | 890c722   | fix: restful endpoints.                                                          | Se corrigen los endpoints RESTful para asegurar que sigan adecuadamente las convenciones de la API | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | 7419a99   | feat: add payment endpoints.                                                     | Se añaden los nuevos endpoints relacionados con el módulo de pagos, permitiendo registrar, procesar y consultar transacciones dentro del sistema. | 01-12-2025         |
+| GlassGo-Backend | develop | David Vivar | d3146a3   | fix: changed java version for render deployment                                                                      | Se actualiza la versión de Java utilizada en el proyecto para asegurar compatibilidad con el entorno de despliegue en Render. | 01-12-2025         |
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
@@ -2824,7 +2841,7 @@ A continuación, se incluye un screenshot del video, junto con los enlaces de la
 https://youtu.be/fgSdkh02vZo
 
 https://tinyurl.com/2nj6czbv
-07-conclusiones.md:
+
 <div style="page-break-after: always;"></div>
 
 # **Conclusiones y Recomendaciones**
@@ -2882,7 +2899,7 @@ https://tinyurl.com/2rp473k6
         * [https://andina.pe/agencia/noticia-pymes-exportadoras-lograran-reducir-costos-logisticos-30-705089.aspx?utm\_source=chatgpt.com](https://andina.pe/agencia/noticia-pymes-exportadoras-lograran-reducir-costos-logisticos-30-705089.aspx?utm_source=chatgpt.com)
 
 
-09-anexos.md:
+
 <div style="page-break-after: always;"></div>
 
 # **Anexos**
@@ -2943,6 +2960,6 @@ https://tinyurl.com/2rp473k6
 
 **TF1**
 
-- Link del video: 
+- Link del video: https://tinyurl.com/3d49cx85
 
-<img src="assets/images/annexes/AnexoG.png" alt=“Descargar” >
+<img src="assets/images/annexes/Anexo-TF1.png" alt=“Descargar” >
